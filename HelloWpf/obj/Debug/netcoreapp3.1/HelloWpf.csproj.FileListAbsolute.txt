@@ -18,3 +18,5 @@ C:\Users\nicola.carraro\Source\wpf-tutorial\HelloWpf\obj\Debug\netcoreapp3.1\Hel
 C:\Users\nicola.carraro\Source\wpf-tutorial\HelloWpf\obj\Debug\netcoreapp3.1\HelloWpf.dll
 C:\Users\nicola.carraro\Source\wpf-tutorial\HelloWpf\obj\Debug\netcoreapp3.1\HelloWpf.pdb
 C:\Users\nicola.carraro\Source\wpf-tutorial\HelloWpf\obj\Debug\netcoreapp3.1\HelloWpf.genruntimeconfig.cache
+C:\Users\nicola.carraro\Source\wpf-tutorial\HelloWpf\obj\Debug\netcoreapp3.1\GoodbyeWindow.g.cs
+C:\Users\nicola.carraro\Source\wpf-tutorial\HelloWpf\obj\Debug\netcoreapp3.1\GoodbyeWindow.baml

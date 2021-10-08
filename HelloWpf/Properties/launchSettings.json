@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "HelloWpf": {
+      "commandName": "Project",
+      "commandLineArgs": "Youpi"
+    }
+  }
+}

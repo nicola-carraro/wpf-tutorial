@@ -8,30 +8,35 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\nicola.carraro\\.nuget\\packages\\": {}
+    "C:\\Users\\carra\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicola.carraro\\Source\\wpf-tutorial\\HelloWpf\\HelloWpf.csproj",
+      "projectUniqueName": "C:\\Users\\carra\\source\\repos\\wpf-tutorial\\HelloWpf\\HelloWpf.csproj",
       "projectName": "HelloWpf",
-      "projectPath": "C:\\Users\\nicola.carraro\\Source\\wpf-tutorial\\HelloWpf\\HelloWpf.csproj",
-      "packagesPath": "C:\\Users\\nicola.carraro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicola.carraro\\Source\\wpf-tutorial\\HelloWpf\\obj\\",
+      "projectPath": "C:\\Users\\carra\\source\\repos\\wpf-tutorial\\HelloWpf\\HelloWpf.csproj",
+      "packagesPath": "C:\\Users\\carra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\carra\\source\\repos\\wpf-tutorial\\HelloWpf\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\nicola.carraro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\carra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -43,7 +48,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -54,6 +58,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -62,7 +72,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -3,10 +3,32 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:HelloWpf"
+        xmlns:local="clr-namespace:HelloWpf" 
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
         mc:Ignorable="d"
-        Title="GoodbyeWindow" Height="450" Width="800">
-    <Grid>
-        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30">Goodbye cruel world</TextBlock>
-    </Grid>
+        Title="GoodbyeWindow" Height="160" Width="400"
+        Background="{DynamicResource BackgroundBrush}">
+    <Window.Resources>
+        <sys:String x:Key="strHelloWorld">Hello, world</sys:String>
+        <sys:String x:Key="ComboBoxTitle">Combo:</sys:String>
+        <x:Array x:Key="ComboBoxItems" Type="sys:String">
+            <sys:String>Item 1</sys:String>
+            <sys:String>Item 2</sys:String>
+            <sys:String>Item 3</sys:String>
+            <sys:String>Item 4</sys:String>
+        </x:Array>
+        <LinearGradientBrush x:Key="BackgroundBrush">
+            <GradientStop Offset="0" Color="Silver"/>
+            <GradientStop Offset="1" Color="Gray"/>
+        </LinearGradientBrush>
+    </Window.Resources>
+        <!--<Grid>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30">
+            Goodbye cruel world, but also <TextBlock Text="{StaticResource strHelloWorld}"/>     
+        </TextBlock>
+    </Grid>-->
+    <StackPanel Margin="10">
+        <Label Content="{StaticResource ComboBoxTitle}"/>
+        <ComboBox ItemsSource="{StaticResource ComboBoxItems}"/>
+    </StackPanel>
 </Window>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
@@ -21,6 +22,8 @@ namespace HelloWpf
             {
                 string argument = e.Args[0];
                 Debug.WriteLine(argument);
+
+                GoodbyeWindow wnd = new GoodbyeWindow();
             }
             window.Show();
         }

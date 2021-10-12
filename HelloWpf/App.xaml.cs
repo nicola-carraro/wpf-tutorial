@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Threading;
 
 namespace HelloWpf
 {
@@ -26,6 +27,12 @@ namespace HelloWpf
                 GoodbyeWindow wnd = new GoodbyeWindow();
             }
             window.Show();
+        }
+
+        private void Application_DispatcherUnhandledException(object sender, DispatcherUnhandledExceptionEventArgs e)
+        {
+            MessageBox.Show("Merde ! " + e);
+            e.Handled = true;
         }
     }
 }

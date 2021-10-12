@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label Margin="10" FontSize="30" FontFamily="Arial" FontWeight="Bold">Numbers:</Label>
-
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Margin="20" FontSize="30" FontFamily="Arial" FontWeight="Bold" >Numbers:</Label>
+        <Label Margin="20" FontSize="30" FontFamily="Arial" FontWeight="Bold" Grid.Row="1" >Dates:</Label>
     </Grid>
 </Window>

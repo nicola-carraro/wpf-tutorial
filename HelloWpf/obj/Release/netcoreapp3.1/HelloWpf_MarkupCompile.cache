@@ -1,18 +1,18 @@
 ﻿HelloWpf
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\nicola.carraro\Source\wpf-tutorial\HelloWpf\obj\Debug\netcoreapp3.1\
+C:\Users\nicola.carraro\Source\wpf-tutorial\HelloWpf\obj\Release\netcoreapp3.1\
 HelloWpf
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+TRACE;RELEASE;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\nicola.carraro\Source\wpf-tutorial\HelloWpf\App.xaml
 21007793361
 
-61659498233
+4-623876521
 192-1533232326
 GoodbyeWindow.xaml;MainWindow.xaml;
 

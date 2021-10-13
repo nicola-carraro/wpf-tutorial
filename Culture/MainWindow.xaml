@@ -6,12 +6,39 @@
         xmlns:local="clr-namespace:Culture"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="30">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
-        <Label Margin="20" FontSize="30" FontFamily="Arial" FontWeight="Bold" >Numbers:</Label>
-        <Label Margin="20" FontSize="30" FontFamily="Arial" FontWeight="Bold" Grid.Row="1" >Dates:</Label>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Margin="10, 10" FontSize="20" FontFamily="Arial" FontWeight="Bold" >Numbers:</Label>
+        <StackPanel Grid.Row="1">
+            <Label>USA:</Label>
+            <Label>Germany:</Label>
+            <Label>Italy:</Label>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" >
+            <Label>USA:</Label>
+            <Label>Germany:</Label>
+            <Label>Italy:</Label>
+        </StackPanel>
+        <Label Margin="20" FontSize="30" FontFamily="Arial" FontWeight="Bold" Grid.Row="2" >Dates:</Label>
+        <StackPanel Grid.Row="3">
+            <Label>USA:</Label>
+            <Label>Germany:</Label>
+            <Label>Italy:</Label>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Grid.Column="1">
+            <Label>USA:</Label>
+            <Label>Germany:</Label>
+            <Label>Italy:</Label>
+        </StackPanel>
     </Grid>
+    
 </Window>
